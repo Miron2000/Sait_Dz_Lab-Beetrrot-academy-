@@ -1,0 +1,41 @@
+.center1 {
+    background-image: url('../images/center1.png');
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    margin-top: 89px;
+    .services {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .services-white {
+            margin: auto;
+            position: relative;
+            top: 26px;
+            h1 {
+                border: 1px solid transparent;
+                padding: 10px 50px 10px 50px;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                background-color: transparent;
+            }
+        }
+        .border-p {
+            margin: auto;
+            border: 1px solid #ffffff;
+            padding: 20px 80px 20px 80px;
+            width: 41%;
+            .p-text1 {
+                line-height: 1.7;
+                margin-top: 16px;
+                font-size: 0.7rem;
+                font-family: 'Open Sans', sans-serif;
+                color: #ffffff;
+            }
+        }
+    }
+}

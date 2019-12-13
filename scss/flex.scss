@@ -1,0 +1,136 @@
+.flex-img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 89px;
+    .img-row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        .text-img1 {
+            width: 25%;
+            position: relative;
+            .image1 {
+                width: 366px;
+                height: 195px;
+                position: absolute;
+            }
+            .topworkz {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 22px;
+            }
+        }
+        .text-img2 {
+            width: 50%;
+            position: relative;
+            .image2 {
+                width: 595px;
+                margin-left: 40px;
+                height: 195px;
+                position: absolute;
+            }
+            .joint {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 75px;
+            }
+        }
+        .text-img3 {
+            width: 25%;
+            position: relative;
+            .image3 {
+                width: 366px;
+                height: 195px;
+                margin-left: 10px;
+                position: absolute;
+                right: 0px;
+            }
+            .market {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 12px;
+            }
+        }
+    }
+    .img-row2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 207px;
+        position: relative;
+        .text-img1 {
+            width: 25%;
+            position: relative;
+            .image1 {
+                width: 366px;
+                height: 195px;
+                position: absolute;
+            }
+            .worktop {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 22px;
+            }
+        }
+        .text-img2 {
+            width: 50%;
+            position: relative;
+            .image2 {
+                width: 595px;
+                margin-left: 40px;
+                height: 195px;
+                position: absolute;
+            }
+            .lable {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 75px;
+            }
+        }
+        .text-img3 {
+            width: 25%;
+            position: relative;
+            .image3 {
+                width: 366px;
+                height: 195px;
+                margin-left: 10px;
+                position: absolute;
+                right: 0px;
+            }
+            .kyiv {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #ffffff;
+                position: absolute;
+                top: 136px;
+                left: 12px;
+            }
+        }
+    }
+}

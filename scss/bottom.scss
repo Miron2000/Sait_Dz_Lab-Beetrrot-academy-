@@ -1,0 +1,76 @@
+    .contact {
+        padding-top: 237px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        .contact-white {
+            margin: auto;
+            position: relative;
+            top: 26px;
+            h1 {
+                border: 1px solid white;
+                padding: 10px 50px 10px 50px;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                letter-spacing: 4px;
+                color: #3c3c3c;
+                background-color: white;
+            }
+        }
+        .border-p {
+            margin: auto;
+            border: 1px solid #3c3c3c;
+            padding: 20px 80px 120px 80px;
+            width: 41%;
+            .p-text1 {
+                margin-top: 16px;
+                font-size: 0.7rem;
+                font-family: 'Open Sans', sans-serif;
+                color: #3c3c3c;
+                line-height: 1.7;
+            }
+        }
+        .button {
+            text-decoration: none;
+            position: absolute;
+            margin-top: 192px;
+            margin-left: 428px;
+            p {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1rem;
+                color: white;
+                border: 3px solid #524848;
+                background-color: #524848;
+                cursor: pointer;
+                letter-spacing: 2px;
+                width: 281px;
+                height: 30px;
+                text-transform: uppercase;
+                padding-top: 8px;
+                &:hover {
+                    border: 3px solid #7e899b;
+                    color: #6f90b8;
+                }
+            }
+        }
+    }
+    
+    .niz {
+        display: flex;
+        flex-direction: row;
+        margin-top: 73px;
+        justify-content: center;
+        img {
+            height: 27px;
+            width: 34px;
+            margin-top: -9px;
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.7rem;
+            color: #3c3c3c;
+            margin-left: 41px;
+        }
+    }
